@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(#1173e7, #f48508) ; 
+}
+
+section
+{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+section img 
+{
+    position: absolute;
+    pointer-events: none;
+}
+
+section img#tik 
+{
+    top: -100%;
+    width: 15%;
+    height: auto;
+    mix-blend-mode: screen;
+}
+
+    section img#bay {
+        bottom: -3000px;
+        width: 100%;
+        height: 100%;
+    }
+#text
+{
+    position: absolute;
+    margin-right: -3500px;
+    color: #fff;
+    font-size: 8vw;
+    font-weight: 200;
+}
+#textLocation
+{
+    top: 60%;
+    position: absolute;
+    margin-left: -3000px;
+    color: #fff;
+    font-size: 4vw;
+    font-weight: 200;
+}
+
+#btn {
+    position: absolute;
+    top: -150%;
+    left: 50%;
+    margin-top: 80px;
+    transform: translate(-50%,-50%);
+    text-decoration: none;
+    display: inline-block;
+    padding: 8px 40px;
+    background: #cfc33a;
+    border-radius: 30px;
+    font-size: 1.4em;
+    color: white;
+    z-index: 10000;
+}
+#btnCv {
+    position: absolute;
+    bottom: -150%;
+    left: 50%;
+    margin-bottom: 30px;
+    transform: translate(-50%,-50%);
+    text-decoration: none;
+    display: inline-block;
+    padding: 8px 20px;
+    background: #000000;
+    border-radius: 40px;
+    font-size: 1.4em;
+    color: white;
+    z-index: 10000;
+}
+
+#cvDownload {
+    position: absolute;
+    bottom: -150%;
+    left: 50%;
+    opacity: 0.8;
+    transform: translate(-50%,-50%);
+    text-decoration: none;
+    display: inline-block;
+    padding: 8px 30px;
+    background: #1173e7;
+    border-radius: 40px;
+    font-size: 1.4em;
+    color: white;
+    z-index: 10000;
+}
+
+
+.my-path {
+    fill: none;
+    stroke: #cfc33a;
+    stroke-width: 4;
+}
+
+
