@@ -34,14 +34,14 @@ animation
 .add({
   targets: '#tik',
   top: '0px',
-  duration: 1000,
+  duration: 1400,
   easing: 'easeInOutBack'
 })
 
     .add({
         targets: '#bay',
         bottom: '0px',
-        duration: 1500,
+        duration: 1700,
         easing: 'easeInOutSine'
     })
 
@@ -66,12 +66,6 @@ animation
         easing: 'easeInOutBack'
     })
 
-/*.add({
-  targets: '#btn',
-  top: '50%',
-  duration: 1000,
-  easing: 'easeInOutBack'
-})*/
 
 document.querySelector('#btn').onclick = animation.play;
 
